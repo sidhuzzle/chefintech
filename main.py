@@ -7,7 +7,7 @@ from streamlit_chat import message
 from langchain.chains import ConversationChain
 from langchain.llms import OpenAI
 
-
+import config
 
 llm = OpenAI(temperature=1, openai_api_key=config.token,max_tokens = 1024)
 
